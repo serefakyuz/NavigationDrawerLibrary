@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="toolbar_logo_margin">12dp</dimen>
+    <dimen name="left_drawer_item_image_view_width">44dp</dimen>
+    <dimen name="toolbar_title_text_size">20sp</dimen>
+    <dimen name="toolbar_search_icon_width">35dp</dimen>
+    <dimen name="toolbar_search_icon_height">20dp</dimen>
+    <dimen name="nav_drawer_sub_item_image_margin">12dp</dimen>
+    <dimen name="sub_item_text_size">18sp</dimen>
+    <dimen name="sub_item_text_top_bot_margin">8dp</dimen>
+    <dimen name="sub_item_text_left_margin">18dp</dimen>
+    <dimen name="nav_drawer_item_arrow_padding">16dp</dimen>
+    <dimen name="nav_drawer_item_image_margin">8dp</dimen>
+    <dimen name="nav_drawer_item_title_margin_left">8dp</dimen>
+    <dimen name="nav_drawer_item_title_margin_right">16dp</dimen>
+    <dimen name="nav_drawer_item_title_text_size">18sp</dimen>
+    <dimen name="nav_drawer_item_subtitle_margin_left">8dp</dimen>
+    <dimen name="nav_drawer_item_subtitle_margin_right">16dp</dimen>
+    <dimen name="nav_drawer_item_subtitle_text_size">14sp</dimen>
+</resources>

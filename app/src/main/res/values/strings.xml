@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">NavigationDrawer Sample</string>
+    <string name="search_icon_click_text">Search Icon Clicked</string>
+    <string name="menu_just_title">Just Title</string>
+    <string name="menu_with_sub_title">With SubTitle</string>
+    <string name="menu_with_subitems">With SubItems</string>
+    <string name="menu_with_image">With Image</string>
+    <string name="sub_title_text">Sub Title</string>
+    <string name="subitem_title_text">SubItem</string>
+</resources>
