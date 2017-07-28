@@ -7,7 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import com.serefakyuz.navigationdrawerlib.BaseNavigationDrawerActivity;
+import com.serefakyuz.navigationdrawerlib.ui.activity.BaseNavigationDrawerActivity;
 import com.serefakyuz.navigationdrawerlib.model.AbstractSubItemModel;
 
 import java.util.ArrayList;
@@ -80,16 +80,10 @@ public class NavigationDrawerActivity extends BaseNavigationDrawerActivity {
         toolbar.getSearchView().setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                onSearchIconClicked();
+                Toast.makeText(NavigationDrawerActivity.this, R.string.search_icon_click_text, Toast.LENGTH_SHORT).show();
             }
         });
         setToolbar(toolbar, viewGroup);
-    }
-
-    @Override
-    public void onSearchIconClicked() {
-        Toast.makeText(this, R.string.search_icon_click_text, Toast.LENGTH_SHORT).show();
-
     }
 
 

@@ -1,4 +1,4 @@
-package com.serefakyuz.navigationdrawerlib;
+package com.serefakyuz.navigationdrawerlib.ui.activity;
 
 import android.os.Build;
 import android.os.Bundle;
@@ -15,16 +15,15 @@ import android.view.ViewGroup;
 import android.view.animation.TranslateAnimation;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.serefakyuz.navigationdrawerlib.R;
 import com.serefakyuz.navigationdrawerlib.listener.ExpandableViewListener;
 import com.serefakyuz.navigationdrawerlib.listener.RecyclerViewItemClickListener;
 import com.serefakyuz.navigationdrawerlib.listener.SubItemClickListener;
 import com.serefakyuz.navigationdrawerlib.model.AbstractSubItemModel;
 import com.serefakyuz.navigationdrawerlib.model.NavigationDrawerItemModel;
-import com.serefakyuz.navigationdrawerlib.ui.activity.LanguageSwitcherActivity;
 import com.serefakyuz.navigationdrawerlib.ui.view.NavDrawerToolbarHolder;
 
 import java.util.ArrayList;
@@ -55,7 +54,6 @@ public abstract class BaseNavigationDrawerActivity<T extends AbstractSubItemMode
     public abstract void initNavigationDrawer();
     public abstract void navigationDrawerOpened();
     public abstract void navigationDrawerClosed();
-    public abstract void onSearchIconClicked();
 
     protected FrameLayout mFrameLayout;
     private float lastTranslate = 0.0f;
