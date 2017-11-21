@@ -16,11 +16,11 @@
         <item name="android:textColor">@color/white</item>
     </style>
 
-    <style name="AppTheme.FullScreen.WhiteArrow" parent="NavDrawerAppTheme.FullScreen">
+    <style name="AppTheme.FullScreen.WhiteHamburgerIcon" parent="NavDrawerAppTheme.FullScreen">
         <item name="drawerArrowStyle">@style/DrawerArrowStyleWhite</item>
     </style>
 
-    <style name="AppTheme.FullScreen.BlackArrow" parent="NavDrawerAppTheme.FullScreen">
+    <style name="AppTheme.FullScreen.BlackHamburgerIcon" parent="NavDrawerAppTheme.FullScreen">
         <item name="drawerArrowStyle">@style/DrawerArrowStyleBlack</item>
     </style>
 

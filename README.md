@@ -9,6 +9,6 @@ A library to create navigation drawer items with image, with subitems and custom
 - While creating subitems, extend AbstractSubItemModel class and customize your model class.
 - Handle drawer item's click events in onNavigationItemSelected method
 - Init your customized Toolbar in initToolbar method
-- Set Toolbar hamburger menu icon color in manifest using styles(AppTheme.FullScreen.WhiteArrow or AppTheme.FullScreen.BlackArrow) for Activity theme
+- Set Toolbar hamburger menu icon color in manifest using styles(AppTheme.FullScreen.WhiteHamburgerIcon or AppTheme.FullScreen.BlackHamburgerIcon) for Activity theme
 
 

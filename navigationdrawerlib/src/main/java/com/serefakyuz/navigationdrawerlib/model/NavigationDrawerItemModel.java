@@ -10,7 +10,6 @@ public class NavigationDrawerItemModel<T extends AbstractSubItemModel> {
     private String mTitle;
     private String mSubTitle;
     private int mImageResId;
-    private boolean isNeedArrow;
     private boolean isExpanded = false;
     private boolean isSelected;
     private List<T> mSubList;

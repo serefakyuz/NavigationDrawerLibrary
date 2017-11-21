@@ -6,13 +6,13 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.serefakyuz.navigationdrawerlib.ui.view.NavDrawerToolbarHolder;
+import com.serefakyuz.navigationdrawerlib.holder.NavDrawerBaseToolbarHolder;
 
 /**
  * Created by seref-akyuz on 7/25/17.
  */
 
-public class MyToolbar extends NavDrawerToolbarHolder {
+public class MyToolbar extends NavDrawerBaseToolbarHolder {
 
     private ImageView mSearchView;
     private TextView mTitle;

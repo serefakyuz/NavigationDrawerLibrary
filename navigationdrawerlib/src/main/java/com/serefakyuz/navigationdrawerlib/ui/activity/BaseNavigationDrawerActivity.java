@@ -24,7 +24,7 @@ import com.serefakyuz.navigationdrawerlib.listener.RecyclerViewItemClickListener
 import com.serefakyuz.navigationdrawerlib.listener.SubItemClickListener;
 import com.serefakyuz.navigationdrawerlib.model.AbstractSubItemModel;
 import com.serefakyuz.navigationdrawerlib.model.NavigationDrawerItemModel;
-import com.serefakyuz.navigationdrawerlib.ui.view.NavDrawerToolbarHolder;
+import com.serefakyuz.navigationdrawerlib.holder.NavDrawerBaseToolbarHolder;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -94,7 +94,7 @@ public abstract class BaseNavigationDrawerActivity<T extends AbstractSubItemMode
         setTitle(getString(titleId));
     }
 
-    protected void setToolbar(NavDrawerToolbarHolder toolbar, ViewGroup viewGroup){
+    protected void setToolbar(NavDrawerBaseToolbarHolder toolbar, ViewGroup viewGroup){
         mToolbar = toolbar.getToolbar();
         viewGroup.addView(mToolbar);
         setSupportActionBar(mToolbar);

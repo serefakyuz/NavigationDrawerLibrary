@@ -49,7 +49,7 @@ public class NavigationDrawerActivity extends BaseNavigationDrawerActivity {
                 replaceFragment(SampleFragment.getInstance(getString(R.string.menu_with_image)), true);
                 break;
             default:
-                Log.e(TAG, "onNavigationItemSelected: page could not be found!");
+                Toast.makeText(this, R.string.page_not_found_message, Toast.LENGTH_SHORT).show();
                 break;
         }
     }
